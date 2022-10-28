@@ -1,0 +1,27 @@
+.home_container {
+  height: 93vh;
+  background-color: #efefef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home_container h1 {
+  font-size: 3rem;
+  color: #a9a9a9;
+}
+
+@media screen and (max-width: 768px) {
+  .home_container h1 {
+    font-size: 2.5rem;
+    color: #a9a9a9;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .home_container h1 {
+    font-size: 2rem;
+    color: #a9a9a9;
+  }
+}
